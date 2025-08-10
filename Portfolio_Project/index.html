@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26f32bfd42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Deepak</span><br>From Sattur </h1>
+            </div>
+        </div>
+    </div>
+<!----------about------------------>
+    <div id="about">
+       <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Creative and passionate web developer with a solid foundation in HTML, CSS, JavaScript, and responsive design. Recently graduated in Computer Science and completed several hands-on projects that showcase strong front-end development skills. Familiar with modern frameworks like React and basic back-end tools like MongoDB. A fast learner with a eye for design, problem-solving ability, and a drive to build clean, user-friendly websites. Eager to contribute to real-world web development projects and grow in a dynamic tech environment
+
+           </p>
+               <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                   <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                   <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Intermediate</span> <br>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                       <li><span>Libraries</span> <br>ReactJS</li>
+                       <li>BootStrap</li>
+                       <li><span>frameworks</span><br>MongoDB</li>
+                    </ul> </div>
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span>5 Days</span> <br> <br>Dot Net (Basics)
+                        <br><br>.NET is a free, open-source, cross-platform framework developed by Microsoft for building applications. It supports multiple programming languages like C#, F#, and VB.NET, and can be used to create web, desktop, mobile, cloud, and IoT applications. It provides a large class library, runtime environment, and tools that simplify development, improve performance, and ensure security.</li>
+
+                        <li><span>One Month</span> <br> <br>Full Stack (Basics)
+                        <br><br>Full-stack basics refer to the foundational skills and knowledge needed to work on both the frontend (what users see and interact with) and the backend (server logic and databases) of a web application.</li>
+                        <li>Frontend: HTML, CSS, JavaScript, and frameworks like React to build user interfaces.</li>
+                        <li>Backend: Server-side languages like Node.js, plus frameworks to handle requests, process data, and run business logic.</li>
+                        <li>Databases: Using NoSQL (MongoDB) to store and retrieve data.</li>
+                        <li>Version Control: Tools like Git/GitHub to manage code changes.</li>
+                    </ul> </div>
+                    <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2026</span> <br>Sree Sowdambika College of Engineering<br>B.E Computer Science and Engineering  <br>Current CGPA - 8%</li>
+                        <li><span>2022</span> <br>SHN EDWARD Hr Sec School <br>12th Standard and My Percentage 75%</li>
+                        <li><span>2019</span> <br>SHN EDWARD Hr Sec School <br>10th Standard and My Percentage 70%</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!----------Services------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>We create fast, responsive, and user-friendly websites tailored to your business needs, ensuring modern design, seamless functionality, and a great user experience. </p>
+                    <a href="#">learn more</a>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+<!---------------Portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/deepak-v-643a34370/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Deepaktechsamy"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right"></div>
+    <p>Copyright @ Deepak 2025</p>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzjFHUKHB8lAmVl3gRogt8nP4RVo2QPU2LQVIZu-YaHWvAaq_vl-6V8ShbvTD149Q4n2A/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
